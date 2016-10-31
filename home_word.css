@@ -1,0 +1,441 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+	font-size:75% ;
+}
+.header{
+	position: relative;
+	background-image: url(home_word/effect.png);
+	background-size: 100% 100%;
+	height: 523px;
+	z-index: 1;
+}
+.introduction{
+	margin: 0 auto;
+	height: 876px;
+	width: 1022px;
+}
+.portfolio{
+	position: relative;
+	margin: 0 auto;
+	height: 1000px;
+	width: 1024px;
+}
+.contact{
+	position: relative;
+	margin: 0 auto;
+	width: 820px;
+	height: 570px;
+}
+.footer{
+	position: relative;
+	clear: both;
+	height: 255px;
+	background-color: #1abc9c;
+	margin-top: 162px;
+}
+.iconfont{
+	cursor: default;
+}
+.navigation{
+	position: relative;
+	height: 80px;
+	width: 64% ;
+	margin:0 auto;
+	font-family:"Microsoft YaHei";
+	font-size: 1.75em;
+	color:#ffffff;
+}
+ul{	
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	bottom: 0px;
+	right: 0px;
+}
+.navigation li{
+	float: left;
+	padding:0 16px;
+}
+.left_navigation ul{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	bottom: 0px;
+	left: 0px;
+}
+.navigation a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.navigation .logo{
+	left: 0px;
+	color:#ffffff;
+}
+.navigation .start a{
+	text-decoration: underline;
+}
+.navigation .about_me a{
+	color: #1abc9c;
+}
+.caption{
+	position: relative;
+	top:0px;
+	width: 51%;
+	height: 234px;
+	border-bottom: 2px solid white;
+	margin: 0 auto;
+}
+.caption h1{
+	position: absolute;
+	font-size: 5.3em;
+	font-family:"Microsoft YaHei";
+	font-weight: normal;
+	color: #ffffff;
+	margin: 0 auto;
+	margin-left: 30px;
+	bottom: 10px;
+}
+.caption_bottom h2{
+	color: #ffffff;
+	text-align: center;
+	font-weight: normal;
+}
+.header .buttom{
+	position: relative;
+	margin: 0 auto;
+	top:120px;
+	width: 234px;
+	height: 62px;
+	background-color: #78d8c5;
+	z-index: -1;
+}
+.buttom_green{
+	position: relative;
+	top:6px;
+	left: 6px;
+	width: 222px;
+	height: 50px;
+	background-color:#1abc9c;
+	z-index: 2;
+}
+.buttom_green p{
+	cursor: default;
+	text-align: center;
+	color:#ffffff;
+	line-height: 1.9em;
+	font-size: 2.24em;
+}
+.introduction .title{
+	position: relative;
+	top: 153px;
+	margin: 0 auto;
+	color:  #1abc9c;
+}
+.introduction .title h1{
+	text-align: center;
+	margin:0 auto;
+	font-size:3.16em;
+	font-family: "Microsoft YaHei";
+}
+.introduction .content{
+	position: relative;
+	margin: 0 auto;
+	height: 156px;
+	width: 820px;
+	top: 186px;
+	font-size: 1.6em;
+	font-family: "Microsoft YaHei";
+	line-height: 1.7em;
+	color: #95a5a6;
+}
+.introduction .content p{
+	margin: 0px;
+	text-align: center;
+}
+.skills{
+	position: relative;
+	top:240px;
+	width: 1022px;
+	height: 330px;
+	margin: 0 auto;
+}
+.skills h2{
+	margin-top: 3px;
+	text-align: center;
+	color: #1abc9c;
+	font-size: 21px;
+	margin: 0px;
+}
+.skills p{
+	margin-top:35px; 
+	color: #95a5a6;
+	font-size: 16px;
+	line-height: 2.1em;
+	text-align: justify;
+}
+.left_skills{
+	float: left;
+	width: 267px;
+	height: 330px;
+}
+.note{
+	width: 70px;
+	height: 76px;
+	margin: 0 auto;
+}
+.iconfont{
+	color: #1abc9c;
+	font-size: 70px;
+}
+.left_skills .sketching{
+	position: absolute;
+	width: 267px;
+	bottom:0px;
+	height: 230px;
+}
+.middle_skills{
+	margin: 0 auto;
+	width: 267px;
+	height: 330px;
+}
+.target{
+	width: 70px;
+	height: 76px;
+	margin: 0 auto;
+}
+.middle_skills .design{
+	position: absolute;
+	width: 267px;
+	bottom:0px;
+	height: 230px;
+}
+.right_skills{
+	position: relative;
+	float: right;
+	bottom: 330px;
+	width: 267px;
+	height: 330px;
+}
+.candy{
+	width: 70px;
+	height: 76px;
+	margin: 0 auto;
+}
+.right_skills .finalize{
+	position: absolute;
+	width: 267px;
+	bottom: 0px;
+	height: 230px;
+}
+.portfolio img{
+	position: relative;
+	width: 427px;
+	height: 320px;
+	z-index: 1;
+}
+.image1{
+	position: relative;
+	float: left;
+	margin-top: 80px;
+	z-index: 2;
+}
+.image2{
+	position: relative;
+	width: 427px;
+	height: 320px;
+	background-image: url(home_word/image2.png);
+	position: relative;
+	float: right;
+	margin-top: 80px;
+	z-index: 2;
+}
+.image_bottom{
+	position: relative;
+	background-color: #1abc9c;
+	width: 427px;
+	height:96px;
+	top: 169px;
+}
+.image2_buttom{
+	position: relative;
+	top: 22px;
+	left: 354px;
+	background-image: url(home_word/buttom.png);
+	width: 55px;
+	height: 55px;
+}
+.image2_buttom img{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	left: 17.5px;
+	top: 17.5px;
+}
+.image_bottom h2{
+	position: relative;
+	color: #ffffff;
+	left: 23px;
+	top:14px;
+	font-size: 32px;
+	margin: 0px;
+	font-weight: normal;
+}
+.image_bottom p{
+	position: relative;
+	left: 23px;
+	top: 4px;
+	margin-top: 13px;
+	color: #297465;
+	font-size: 16px;
+}
+.image3{
+	position: relative;
+	float: left;
+	left: -427px;
+	margin-top: 60px;
+	z-index: 2;
+
+}
+.image4{
+	position: relative;
+	float: right;
+	bottom:320px;
+	z-index: 2;
+}
+.last_buttom{
+	position: absolute;
+	left: 50%;
+	margin-left: -116.5px;
+	width: 233px;
+	height: 62px;
+	background-color: #1abc9c;
+	bottom: 80px;
+}
+.last_buttom p{
+	text-align: center;
+	line-height: 2.3em;
+	font-size: 2.1em;
+	color: #ffffff;
+	margin: 0px;
+	cursor: default;
+}
+.contact_caption{
+	position: relative;
+	width: 820px;
+	height: 197px;
+	color: #1abc9c;
+	border-top: 2px solid #e4e8e8;
+}
+.contact_caption h2{
+	position: absolute;
+	text-align: center;
+	font-size:5.3em;
+	left: 50%;
+	margin-left: -148px;
+	font-weight: normal;
+}
+.formular{
+	width: 820px;
+	height: 373px;
+}
+.formular input{
+	color: #cecece;
+	font-size: 32px;
+	border: none;
+	background-color: #e4e8e8;
+
+}
+.name input{
+	float: left;
+	width: 394px;
+	height: 78px;
+}
+.email input{
+	float: right;
+	width: 394px;
+	height: 78px;
+}
+.message textarea{
+	margin-top: 28px;
+	width: 820px;
+	height: 268px;
+	color: #cecece;
+	font-size: 32px;
+	border: none;
+	background-color: #e4e8e8;
+	resize:none;
+}
+.text{
+	position: relative;
+	margin: 0 auto;
+	top: -30px;
+	height: 180px;
+	width: 1022px;
+	font-size: 2.1em;
+	color: #ffffff;
+}
+.icons{
+	margin: 0 auto;
+	width: 820px;
+	height: 69px;
+}
+.bird{
+	position: relative;
+	margin: 0px;
+	top: -38px;
+	left: -16px;
+	background-image: url(home_word/background.png);
+	width: 116px;
+	height: 108px;
+}
+.bird .iconfont{
+	position: relative;
+	top: 38px;
+	left: 38px;
+	font-size: 50px;
+	font: #1abc9c;
+}
+.ball{
+	position: relative;
+	top: -146px;
+	background-image: url(home_word/background.png);
+	width: 116px;
+	height: 108px;
+	margin-left: 372px;
+}
+.ball .iconfont{
+	position: relative;
+	top: 34px;
+	left: 38px;
+	font-size: 50px;
+	font: #1abc9c;
+}
+.facebook{
+	position: relative;
+	top: -254px;
+	background-image: url(home_word/background.png);
+	width: 116px;
+	height: 108px;
+	margin-left: 714px;
+}
+.facebook .iconfont{
+	position: relative;
+	top: 30px;
+	left: 38px;
+	font-size: 50px;
+	font: #1abc9c;
+}
+.text_left{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+.text_right{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
